@@ -20,10 +20,6 @@ import ProductEditScreen from "./screens/ProductEditScreen";
 import OrderListScreen from "./screens/OrderListScreen";
 
 const App = () => {
-  const http = require("http");
-  setInterval(function () {
-    http.get("https://acefishinggear.herokuapp.com");
-  }, 1800000); // every 30 minutes (1800000)
   return (
     <Router>
       <Header />
